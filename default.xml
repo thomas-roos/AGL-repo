@@ -70,15 +70,15 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="6aa6e0ee154b55cdcf1ef6adeeac60bb119174ed" upstream="kirkstone"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="f6fa0fd8783ce69d07feaad0b7ca6759b5a4d5d6" upstream="kirkstone"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="82cbf4e5adac1017adc1e4a2ce056c57b3148ba0" upstream="kirkstone"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="bf12dc09d88a53d7345377de277fbcc20ed87235" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="858c7553a85d60420f78d3240da2a38c30c90716" upstream="kirkstone"/>
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="574e833a9adf17a14484cae8b750b5cc36bc8d17" upstream="kirkstone"/>
 
   <!-- Raspberry Pi 4 -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="dacad9302a92b0b7edf8546cdcad1f8ef753e462" upstream="kirkstone"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="2a06e4e84b04fc900f3a4524581548c9b5e57362" upstream="kirkstone"/>
 
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="7eb9a421f547e347c9da23463734758568e13f95" upstream="kirkstone"/>
