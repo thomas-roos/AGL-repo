@@ -82,7 +82,7 @@
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="2a06e4e84b04fc900f3a4524581548c9b5e57362" upstream="kirkstone"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="7eb9a421f547e347c9da23463734758568e13f95" upstream="kirkstone"/>
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="7ca1bf687945c01b7cbfea3174e4b10cd313f2d7" upstream="kirkstone"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="032a394e7569d1254cd17a0358475b986e64a5a4" upstream="master"/>
 
 </manifest>
