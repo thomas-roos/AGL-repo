@@ -61,7 +61,8 @@
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone" />
 
   <!-- meta-flutter -->
-  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="7702fabd669ad76e3393f1871bd0805080eb487e" upstream="kirkstone"/>
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="baac75c8c8522b5a596d673ec4492fc71cc077d8" upstream="kirkstone"/>
+  <project name="meta-flutter/workspace-automation" path="external/workspace-automation" remote="github" revision="1548ef193f55cf476af6189449ee876ba7a7fdaf" upstream="main"/>
 
   <!-- BSPs -->
 
