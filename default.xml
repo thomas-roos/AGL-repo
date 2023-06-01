@@ -29,18 +29,18 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="09def309f91929f47c6cce386016ccb777bd2cfc" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="571e36e20e9d1f27af0eb4545291beeb64f280e2" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="f53ab3a2ff206a130cdc843839dd0ea5ec4ad02f" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="5f120a926b0fcd55cfe7565bb7ddf23661cad498" upstream="kirkstone" />
   <project name="meta-lts-mixins" path="external/meta-lts-mixins_rust-1.68" remote="yocto" revision="feed1bb0eb4aefb701d582156d7defb0c1fc0473" upstream="kirkstone/rust-1.68" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="dde0ff9eaa301ec5bd3daf667c7966cf55404d26" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="9d056f957b42e31f1c2c5bad0af1ab6c84b53ee6" upstream="kirkstone"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="aec1934cb2708236c033f2d205d5c3fbbebf7555" upstream="kirkstone"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="bff5bd937f0776166e81a63f3dd39ede348ef758" upstream="kirkstone"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="cc20e2af2ae1c74e306f6c039c4963457c4cbd0f" upstream="kirkstone"/>
@@ -55,7 +55,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="25373bc58ece8b6f07680a103b4a1bbbc99e0db1" upstream="master"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="68ec449f97ffa58d835163581fc72afcb08f027b" upstream="kirkstone"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="71321ddf78ea522b87a6b4bffefb14c988a6d921" upstream="kirkstone"/>
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone" />
