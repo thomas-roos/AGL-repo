@@ -10,7 +10,7 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="github" fetch="https://github.com/" />
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
-  <remote name="alb" fetch="https://source.codeaurora.org/external/autobsps32"/>
+  <remote name="alb" fetch="https://github.com/nxp-auto-linux/meta-alb.git"/>
   <remote name="linaro" fetch="https://git.linaro.org/openembedded"/>
 
   <!-- defaults -->
